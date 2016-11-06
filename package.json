@@ -1,0 +1,31 @@
+{
+  "name": "ambox",
+  "version": "1.0.0",
+  "description": "A web framework for Node.js",
+  "author": "Adrian C. Miranda <send@adrian.directory> (http://adrian.directory)",
+  "homepage": "https://ambox.github.io/",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ambox/ambox.git"
+  },
+  "bin": {
+    "ambox": "bin/ambox.js"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "ambox",
+    "framework",
+    "web",
+    "app",
+    "api"
+  ]
+}
