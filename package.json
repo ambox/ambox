@@ -15,11 +15,14 @@
     "ambox": "bin/ambox.js"
   },
   "scripts": {
+    "updates": "ncu --loglevel verbose --packageFile package.json -u",
+    "upgrade": "ncu --loglevel verbose --packageFile package.json -a && npm i",
     "test": ""
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "chalk": "^1.1.3",
+    "npm-check-updates": "^2.8.6"
   },
   "keywords": [
     "ambox",
