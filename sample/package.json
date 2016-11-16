@@ -1,0 +1,17 @@
+{
+  "name": "ambox",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "updates": "ncu --loglevel verbose --packageFile package.json -u",
+    "upgrade": "ncu --loglevel verbose --packageFile package.json -a && npm i",
+    "start": "node server/",
+    "build": "node server/manifest/"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^2.8.6"
+  },
+  "dependencies": {
+    "ambox": "latest"
+  }
+}
